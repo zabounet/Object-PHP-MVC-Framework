@@ -1,0 +1,35 @@
+:root {
+    --emptyCell: #ddd;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    background-color: #EFFFE2;
+    box-shadow: inset 0px 0px 27px 10px rgba(153, 211, 126, 0.69);
+}
+
+header {
+    position: relative;
+    height: 6%;
+}
+main {
+    overflow: scroll;
+    height: 90%;
+}

@@ -1,0 +1,53 @@
+###################### BASE #######################
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore database relative files
+/dump
+
+# Ignore dependencies and package managers
+/node_modules
+/bower_components
+
+# Ignore build and compiled files
+/dist
+/build
+/out
+/.sass-cache
+/.vscode
+
+# Ignore logs
+/storage/logs
+/logs
+*.log
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.backup
+.env.dusk
+.env.dusk.local
+.env.homestead
+.env.homestead.backup
+.env.testing
+
+# Ignore editor-specific files
+/.idea
+/.vscode
+
+###################### PHP #######################
+
+# Ignore dependencies installed via Composer
+/vendor
+
+# Ignore configuration files with sensitive information
+/config.ini
+/config.php
+
+# Ignore session files
+/sessions
